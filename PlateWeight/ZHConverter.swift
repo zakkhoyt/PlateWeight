@@ -1,5 +1,5 @@
 //
-//  Converter.swift
+//  ZHConverter.swift
 //  PlateWeight
 //
 //  Created by Zakk Hoyt on 9/29/15.
@@ -9,7 +9,7 @@
 import Foundation
 
 
-class Converter {
+class ZHConverter {
     class func poundsToKilograms(pounds: Double) -> Double{
         return pounds * 0.453592
     }
@@ -17,7 +17,5 @@ class Converter {
     class func kilogramsToPounds(kilograms: Double) -> Double{
         return kilograms / 0.453592
     }
-    
-    
 }
 
