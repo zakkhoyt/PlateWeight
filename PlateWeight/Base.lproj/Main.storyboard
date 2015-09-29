@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="l9T-5x-S72">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--kg-->
+        <!--kgs-->
         <scene sceneID="0F8-I8-4mf">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3a-rl-aOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -60,7 +61,7 @@
                             <outlet property="delegate" destination="F2C-yM-DGA" id="6fg-vW-22C"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="kg" id="E9z-n6-fd5"/>
+                    <tabBarItem key="tabBarItem" title="kgs" selectedImage="kgs" id="E9z-n6-fd5"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="659" y="543"/>
@@ -84,11 +85,11 @@
             </objects>
             <point key="canvasLocation" x="-178" y="943"/>
         </scene>
-        <!--Item-->
+        <!--lbs-->
         <scene sceneID="6j5-au-zN6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T8H-Qu-t8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController storyboardIdentifier="ZHPoundsTableViewController" id="W4f-uI-TbD" customClass="ZHPoundsTableViewController" customModule="PlateWeight" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ZHPoundsTableViewController" id="W4f-uI-TbD" userLabel="lbs" customClass="ZHPoundsTableViewController" customModule="PlateWeight" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zaj-Is-EzX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,10 +140,14 @@
                             <outlet property="delegate" destination="W4f-uI-TbD" id="FQA-5x-gsJ"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="JeM-7F-NjS"/>
+                    <tabBarItem key="tabBarItem" title="lbs" image="lbs" id="JeM-7F-NjS"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="659" y="1482"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kgs" width="128" height="128"/>
+        <image name="lbs" width="512" height="512"/>
+    </resources>
 </document>
