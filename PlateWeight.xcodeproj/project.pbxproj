@@ -13,10 +13,10 @@
 		C62F1BBE1BBB263200C6840D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62F1BBC1BBB263200C6840D /* LaunchScreen.storyboard */; };
 		C62F1BC91BBB263300C6840D /* PlateWeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BC81BBB263300C6840D /* PlateWeightTests.swift */; };
 		C62F1BD41BBB263300C6840D /* PlateWeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BD31BBB263300C6840D /* PlateWeightUITests.swift */; };
-		C62F1BE21BBB265100C6840D /* ZHConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE11BBB265100C6840D /* ZHConverter.swift */; settings = {ASSET_TAGS = (); }; };
-		C62F1BE41BBB271700C6840D /* ZHKilogramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE31BBB271700C6840D /* ZHKilogramsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C62F1BE61BBB273900C6840D /* ZHKilogramsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE51BBB273900C6840D /* ZHKilogramsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		C62F1BEA1BBB2A5600C6840D /* ZHPoundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE91BBB2A5600C6840D /* ZHPoundsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C62F1BE21BBB265100C6840D /* ZHConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE11BBB265100C6840D /* ZHConverter.swift */; };
+		C62F1BE41BBB271700C6840D /* ZHKilogramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE31BBB271700C6840D /* ZHKilogramsTableViewController.swift */; };
+		C62F1BE61BBB273900C6840D /* ZHKilogramsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE51BBB273900C6840D /* ZHKilogramsTableViewCell.swift */; };
+		C62F1BEA1BBB2A5600C6840D /* ZHPoundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F1BE91BBB2A5600C6840D /* ZHPoundsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +212,7 @@
 		C62F1BA81BBB263200C6840D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Zakk Hoyt";
 				TargetAttributes = {
@@ -513,6 +514,7 @@
 				C62F1BDA1BBB263300C6840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62F1BDB1BBB263300C6840D /* Build configuration list for PBXNativeTarget "PlateWeightTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				C62F1BDD1BBB263300C6840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62F1BDE1BBB263300C6840D /* Build configuration list for PBXNativeTarget "PlateWeightUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +532,7 @@
 				C62F1BE01BBB263300C6840D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

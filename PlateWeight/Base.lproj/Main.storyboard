@@ -6,10 +6,9 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--kgs-->
+        <!--Kilograms Table View Controller-->
         <scene sceneID="0F8-I8-4mf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g3a-rl-aOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController storyboardIdentifier="ZHKilogramsTableViewController" id="F2C-yM-DGA" customClass="ZHKilogramsTableViewController" customModule="PlateWeight" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5Uh-Vu-U6P">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -18,10 +17,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZHKilogramsTableViewCell" id="8sh-Aq-pXj" customClass="ZHKilogramsTableViewCell" customModule="PlateWeight" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8sh-Aq-pXj" id="voV-4f-GG0">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kgs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-LT-uQz">
@@ -61,10 +60,11 @@
                             <outlet property="delegate" destination="F2C-yM-DGA" id="6fg-vW-22C"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="kgs" selectedImage="kgs" id="E9z-n6-fd5"/>
+                    <navigationItem key="navigationItem" id="n6y-uT-OkS"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g3a-rl-aOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="659" y="543"/>
+            <point key="canvasLocation" x="1471" y="543"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CoU-Zx-8XD">
@@ -77,8 +77,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="F2C-yM-DGA" kind="relationship" relationship="viewControllers" id="cwV-m2-sVE"/>
-                        <segue destination="W4f-uI-TbD" kind="relationship" relationship="viewControllers" id="rED-xy-Y75"/>
+                        <segue destination="V2R-jP-9zh" kind="relationship" relationship="viewControllers" id="cwV-m2-sVE"/>
+                        <segue destination="cp4-HE-Cd6" kind="relationship" relationship="viewControllers" id="rED-xy-Y75"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-4j-xD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -88,7 +88,6 @@
         <!--lbs-->
         <scene sceneID="6j5-au-zN6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T8H-Qu-t8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController storyboardIdentifier="ZHPoundsTableViewController" id="W4f-uI-TbD" userLabel="lbs" customClass="ZHPoundsTableViewController" customModule="PlateWeight" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zaj-Is-EzX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -97,10 +96,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZHKilogramsTableViewCell" id="Pdm-6B-gIW" customClass="ZHKilogramsTableViewCell" customModule="PlateWeight" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pdm-6B-gIW" id="LUd-ug-Tgn">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kgs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8b-co-Tsb">
@@ -140,14 +139,54 @@
                             <outlet property="delegate" destination="W4f-uI-TbD" id="FQA-5x-gsJ"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="lbs" image="lbs" id="JeM-7F-NjS"/>
+                    <navigationItem key="navigationItem" id="ktm-ip-o9J"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8H-Qu-t8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="1482"/>
+        </scene>
+        <!--kgs-->
+        <scene sceneID="7TS-kc-oaE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V2R-jP-9zh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="kgs" selectedImage="kgs" id="E9z-n6-fd5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bu2-lg-ZTt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="F2C-yM-DGA" kind="relationship" relationship="rootViewController" id="40e-Kb-W6Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZd-yv-jWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="659" y="543"/>
+        </scene>
+        <!--lbs-->
+        <scene sceneID="tVc-JC-sod">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cp4-HE-Cd6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="lbs" id="JeM-7F-NjS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I2I-rz-5do">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="W4f-uI-TbD" kind="relationship" relationship="rootViewController" id="frh-Ns-Q1r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZ8-nm-eyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="659" y="1482"/>
         </scene>
     </scenes>
     <resources>
         <image name="kgs" width="128" height="128"/>
-        <image name="lbs" width="512" height="512"/>
     </resources>
 </document>
