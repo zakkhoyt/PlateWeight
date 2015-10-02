@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0710"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+               BuildableName = "PlateWeightWatch.app"
+               BlueprintName = "PlateWeightWatch"
+               ReferencedContainer = "container:PlateWeight.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C67D857B1BBE00BC00B2C4CF"
+               BuildableName = "PlateWeightWatch Extension.appex"
+               BlueprintName = "PlateWeightWatch Extension"
+               ReferencedContainer = "container:PlateWeight.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C62F1BAF1BBB263200C6840D"
+               BuildableName = "PlateWeight.app"
+               BlueprintName = "PlateWeight"
+               ReferencedContainer = "container:PlateWeight.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+            BuildableName = "PlateWeightWatch.app"
+            BlueprintName = "PlateWeightWatch"
+            ReferencedContainer = "container:PlateWeight.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/PlateWeight">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+            BuildableName = "PlateWeightWatch.app"
+            BlueprintName = "PlateWeightWatch"
+            ReferencedContainer = "container:PlateWeight.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+            BuildableName = "PlateWeightWatch.app"
+            BlueprintName = "PlateWeightWatch"
+            ReferencedContainer = "container:PlateWeight.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/PlateWeight">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+            BuildableName = "PlateWeightWatch.app"
+            BlueprintName = "PlateWeightWatch"
+            ReferencedContainer = "container:PlateWeight.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C67D856F1BBE00BB00B2C4CF"
+            BuildableName = "PlateWeightWatch.app"
+            BlueprintName = "PlateWeightWatch"
+            ReferencedContainer = "container:PlateWeight.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
